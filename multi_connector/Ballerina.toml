@@ -1,0 +1,13 @@
+[package]
+distribution = "slbeta6"
+org = "sachiniranasinghe"
+name = "connectorexternal"
+version = "1.0.1"
+authors = ["Ballerina"]
+export = ["connectorexternal", "connectorexternal.module1", "connectorexternal.module2"]
+keywords = ["Test"]
+icon = "icon.png"
+license = ["Apache-2.0"]
+
+[build-options]
+observabilityIncluded = true
